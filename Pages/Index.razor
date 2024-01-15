@@ -1,0 +1,58 @@
+﻿@page "/"
+
+@* mb-3, mb-4 는 무엇? *@
+<Card Color="CardColor.Dark" Class="mb-4" Style="width:30rem;" TextAlignment="Alignment.Center">
+    <CardHeader>Calculator</CardHeader>
+    <CardBody>
+        <CardTitle></CardTitle>
+        @* Number1 : <NumberInput TValue="float?" @bind-Value = "@num1" />
+        Number2 : <NumberInput TValue="float?" @bind-Value = "@num2" /> *@
+        <CardText>Number1 : <input type="number" @bind-value=@num1></CardText>
+        <CardText>Number2 : <input type="number" @bind-value=@num2></CardText>
+        <CardText>
+            <Button Color="ButtonColor.Danger" @onclick="Add"> Add </Button>
+            @* <Button Color="ButtonColor.Primary" @onclick="Sub"> Subtract </Button>
+            <Button Color="ButtonColor.Warning" @onclick="Mul"> Multiply </Button>
+            <Button Color="ButtonColor.Success" @onclick="Div"> Divide </Button> *@
+        </CardText>
+        <CardText>
+            <Button Color="ButtonColor.Secondary" style="margin-right: 15px;" @onclick="Clear">Reset</Button>
+            <span style="font-size: 30px; vertical-align: middle">Result : @result</span>
+        </CardText>
+    </CardBody>
+</Card>
+
+
+@code
+{
+    private float? num1;
+    private float? num2;
+    private float? result;
+
+    public void Add()
+    {
+        result = num1 + num2;
+    }
+
+    @* public void Sub()
+    {
+        result = num1 - num2;
+    }
+
+    public void Mul()
+    {
+        result = num1 * num2;
+    }
+
+    public void Div()
+    {
+        result = num1 / num2;
+    } *@
+
+    public void Clear()
+    {
+        num1 = null;
+        num2 = null;
+        result = null;
+    }
+}
