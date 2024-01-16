@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/seoshinwoo/Documents/Coding/Blazor/Calculator/obj/Debug/net7.0/scopedcss/projectbundle/Calculator.bundle.scp.css",
+      "PackagePath": "staticwebassets/Calculator.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/seoshinwoo/Documents/Coding/Blazor/Calculator/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/seoshinwoo/Documents/Coding/Blazor/Calculator/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/seoshinwoo/Documents/Coding/Blazor/Calculator/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/seoshinwoo/Documents/Coding/Blazor/Calculator/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Calculator.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Calculator.props",
+      "PackagePath": "build\\Calculator.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Calculator.props",
+      "PackagePath": "buildMultiTargeting\\Calculator.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Calculator.props",
+      "PackagePath": "buildTransitive\\Calculator.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -11,9 +11,9 @@
         <CardText>Number2 : <input type="number" @bind-value=@num2></CardText>
         <CardText>
             <Button Color="ButtonColor.Danger" @onclick="Add"> Add </Button>
-            @* <Button Color="ButtonColor.Primary" @onclick="Sub"> Subtract </Button>
+            <Button Color="ButtonColor.Primary" @onclick="Sub"> Subtract </Button>
             <Button Color="ButtonColor.Warning" @onclick="Mul"> Multiply </Button>
-            <Button Color="ButtonColor.Success" @onclick="Div"> Divide </Button> *@
+            <Button Color="ButtonColor.Success" @onclick="Div"> Divide </Button>
         </CardText>
         <CardText>
             <Button Color="ButtonColor.Secondary" style="margin-right: 15px;" @onclick="Clear">Reset</Button>
@@ -21,7 +21,6 @@
         </CardText>
     </CardBody>
 </Card>
-
 
 @code
 {
@@ -34,7 +33,7 @@
         result = num1 + num2;
     }
 
-    @* public void Sub()
+    public void Sub()
     {
         result = num1 - num2;
     }
@@ -47,7 +46,7 @@
     public void Div()
     {
         result = num1 / num2;
-    } *@
+    }
 
     public void Clear()
     {
