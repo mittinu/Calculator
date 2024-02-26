@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BiWOllO8Ydfh1od2huyKICtY2ap0gLDqPzKL6p2JY16RLjeOmxC0kmwj8790umRww20Tl2f4ezKTm4ARS0YHsA==",
+  "dgSpecHash": "gK6sPfzjlzwAsh+XhbVoUDfvi6ucgUroFMu+U93yn2VZiKIDgEqDPndKL2mN25eLVSXQXB6PwaxwpKNik+hPnA==",
   "success": true,
   "projectFilePath": "/Users/seoshinwoo/Documents/Coding/Blazor/Calculator/Calculator.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,10 @@
     "/Users/seoshinwoo/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/seoshinwoo/.nuget/packages/microsoft.jsinterop/6.0.11/microsoft.jsinterop.6.0.11.nupkg.sha512",
     "/Users/seoshinwoo/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
-    "/Users/seoshinwoo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/seoshinwoo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/seoshinwoo/.nuget/packages/microsoft.netcore.app.ref/7.0.15/microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "/Users/seoshinwoo/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.15/microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "/Users/seoshinwoo/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.15/microsoft.netcore.app.host.osx-arm64.7.0.15.nupkg.sha512"
   ],
   "logs": []
 }
